@@ -49,3 +49,6 @@ if __name__ == "__main__":
 
     response = get_completion(messages)
     print(response)
+    
+    with open('travel_plan.json', 'w') as file:
+        json.dump(trip_information, file)
