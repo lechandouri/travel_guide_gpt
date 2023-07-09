@@ -48,7 +48,6 @@ if __name__ == "__main__":
         {'role':'user', 'content':f"Trip information: ```{trip_information}```"}]
 
     response = get_completion(messages)
-    print(response)
-    
+   
     with open('travel_plan.json', 'w') as file:
-        json.dump(trip_information, file)
+        json.dump(response, file)
