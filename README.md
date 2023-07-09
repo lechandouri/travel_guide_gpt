@@ -16,7 +16,7 @@ This script allows users to input trip information, including the names of citie
 
 ## Usage
 
-1. Run the script using the following command: `python trip_recommendation.py`
+1. Run the script using the following command: `python travel_guide_gpt.py`
 2. Follow the prompts to enter the city names and the number of days you plan to spend in each city.
 3. Once you enter "done" to finish entering the trip information, the script will generate trip recommendations based on the provided information.
 4. The generated recommendations will include activities, sightseeing landmarks, shopping districts, local food recommendations, tips for each city, things to be cautious about, and a fun fact about each city.
